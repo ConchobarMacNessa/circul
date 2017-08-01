@@ -1,5 +1,5 @@
 function setup() {
-  createCanvas(1000, 500);
+  createCanvas(1000, 600);
   background("#07191D");
 }
 
@@ -54,6 +54,6 @@ function draw() {
   noFill();
   stroke(255, 150);
   noLoop();
-  drawCircle(width / 2, height / 2, 250, 'white');
+  drawCircle(width / 2, height / 1.9, 250, 'white');
 
 }
